@@ -59,7 +59,7 @@ public class LoginMBean {
             Messages.addFlashGlobalError("登入失敗 ,您輸入的帳號或密碼有誤。");
             return "/index";
         }
-        return "/system/welcomePrimefaces";
+        return "/system/portal";
     }
 
 }
